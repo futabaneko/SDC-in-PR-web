@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Join from './pages/Join';
 import Rules from './pages/Rules';
 import FAQ from './pages/FAQ';
+import NotFound from './pages/NotFound';
 import LoadingScreen from './components/LoadingScreen';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/join" element={<Join />} />
             <Route path="/rules" element={<Rules />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />

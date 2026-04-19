@@ -1,4 +1,4 @@
-import { UserPlus, Hash, MessageSquare, ExternalLink, CheckCircle, Link } from 'lucide-react';
+import { UserPlus, Hash, MessageSquare, ExternalLink, CheckCircle } from 'lucide-react';
 
 export default function Join() {
   return (

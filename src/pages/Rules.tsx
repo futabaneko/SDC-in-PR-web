@@ -1,4 +1,4 @@
-import { ShieldCheck, Monitor, Ban, Scale, ExternalLink, Link } from 'lucide-react';
+import { ShieldCheck, Monitor, Ban, ExternalLink, Link } from 'lucide-react';
 
 export default function Rules() {
   return (

@@ -124,6 +124,12 @@ export default function Rules() {
                   <span className="mt-1">成果物は、期間内に作成されたものである必要があります。<br />
                   過去に作成された既存成果物の流用をしてはいけません。</span>
                 </li>
+                <li className="flex items-start gap-4">
+                  <span className="text-danger font-bold mt-1 flex-shrink-0">×</span>
+                  <span className="mt-1">配布されているコンテンツ（ワールドやプラグインなど）の使用は許可されますが、<br />
+                  それがメインのコンテンツになってはいけません。<br />
+                  もし判断に困る場合は、ticketにて運営に相談してください。</span>
+                </li>
               </ul>
             </div>
 
